@@ -29,7 +29,7 @@ export default function RootLayout({
       <head>
 
       {/* <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" /> */}
-      <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/ShahjalalK/TrackAdsNow/refs/heads/master/public/favicon.png" type="image/x-icon" />
         
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
