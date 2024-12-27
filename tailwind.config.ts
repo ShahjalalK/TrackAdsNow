@@ -13,11 +13,19 @@ export default {
       lg : "768px",
       xl : "1180px"
     },
+    
     extend: {
+      colors : {
+        primary : "#684DF4",
+        titleColor : "#141D38"
+      },
+      boxShadow: {
+        '3xl': '0px 8px 29px 0px #A3C6FF',
+      }
     },
     fontFamily : {
-      Jost : ["Jost", "serif"],
-      Lobster : ["Lobster", "serif"]
+      Barlow : ["Barlow", "serif"],
+      Roboto : ["Roboto", "serif"]
     },
     container : {
       center : true,

@@ -1,0 +1,7 @@
+{
+    "projectId": "your-vercel-project-id",
+    "orgId": "your-vercel-org-id",
+    "settings": {
+      "domains": ["your-custom-domain.com"]
+    }
+  }

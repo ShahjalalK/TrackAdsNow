@@ -3,3 +3,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  
+ 
+  body {
+    @apply font-Roboto
+  }
+  .section-padding{
+    @apply py-20
+  }
+}
+
+
+.titleGradient{
+ color: 
+  linear-gradient(180deg, #5484FF 0%, #642CDC 100%);
+}
+
+.shadowTestmonials{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
