@@ -66,7 +66,7 @@ const Testmonials = (props: Props) => {
         <div className="flex flex-col space-y-3 justify-center text-center mx-auto">
         <h5 className="text-xl  text-primary font-normal uppercase tracking-tighter ">Testimonials</h5>
         <h1 className="text-4xl capitalize font-bold">What our <span className="text-primary">clients</span> says</h1>
-        <p className="text-lg text-gray-700">Unveiling the extraordinary power. delving into the exceptionally powerfull features of data analysis</p>
+        <p className="text-lg text-gray-700">Hear from those who trust us to deliver excellence, innovation, and unmatched service—real stories of success from satisfied clients who’ve experienced our dedication firsthand.</p>
     </div>
     <div className="flex flex-col">
     <Swiper
