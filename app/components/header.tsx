@@ -14,7 +14,7 @@ export default function Header({}: Props) {
         <div className=" container flex items-center justify-center xl:justify-between text-lg ">
             <ul className="font-normal font-Barlow hidden xl:flex items-center gap-5">
                 <li className="flex gap-1 items-center"> <FaMapLocation className=" text-2xl" /> 35, 5 Shantinagar Rd, Dhaka 1217</li>
-                <li className="flex gap-1 items-center"> <FaPhoneAlt className=" text-xl" /> <Link href="https://wa.me/+8801303233683" target="_blank" className="hover:text-blue-950">+88-01303-233683</Link></li>
+                <li className="flex gap-1 items-center"> <FaPhoneAlt className=" text-xl" /> <Link href="https://wa.me/8801303233683" target="_blank" className="hover:text-blue-950">+88-01303-233683</Link></li>
                 <li className="flex gap-1 items-center"> <TfiEmail className=" text-xl" /> <Link href="mailto:shahjalalk.web@gmail.com" className="hover:text-blue-950">shahjalalk.web@gmail.com</Link></li>
             </ul>
 

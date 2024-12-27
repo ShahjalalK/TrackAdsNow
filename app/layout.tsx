@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleTagManager } from '@next/third-parties/google'
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
@@ -39,10 +40,13 @@ export default function RootLayout({
         ></link>
 
       </head>
+
+      <GoogleTagManager gtmId="GTM-KZTG5HKH" />
+
       <body className="font-Roboto">
         <Header />
 
-        <Link href="https://wa.me/+8801303233683" target="_blank" >
+        <Link href="https://wa.me/8801303233683" target="_blank" >
         <Image src={Message} alt="Message Whats App" className=" fixed bottom-5 right-0  rounded-full w-16 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50" />
         </Link>
 
