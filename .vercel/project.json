@@ -1,7 +1,7 @@
 {
-    "projectId": "your-vercel-project-id",
+    "projectId": "prj_INEEnj7XBnUObgWQwL1bINyIMbUx",
     "orgId": "your-vercel-org-id",
     "settings": {
-      "domains": ["your-custom-domain.com"]
+      "domains": ["trackadsnow.vercel.app"]
     }
   }
