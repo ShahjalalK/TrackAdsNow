@@ -15,7 +15,7 @@ export default function Home() {
     <>
     <section className=" py-5 xl:py-10 ">
       <div className=" relative p-[25%] bg-transparent flex justify-center items-center rounded">
-        <iframe src="https://player.vimeo.com/video/1042080547?autoplay=1&loop=1&title=0&byline=0&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="1" allow="autoplay" className=" absolute top-5 left-0 w-[100%] h-[90%] rounded p-0"></iframe>
+        <iframe src="https://player.vimeo.com/video/1042080547?autoplay=1&muted=1&loop=1&title=0&byline=0&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="1" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className=" absolute top-5 left-0 w-[100%] h-[90%] rounded p-0"></iframe>
         </div>
 
       
