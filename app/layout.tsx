@@ -5,7 +5,7 @@ import "./globals.css";
 import Link from "next/link";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Message from "@/public/images/pngwing.com.png"
+import Message from "@/public/Email.png"
 import Image from "next/image";
 
 
@@ -44,10 +44,10 @@ export default function RootLayout({
       <GoogleTagManager gtmId="GTM-KZTG5HKH" />
 
       <body className="font-Roboto">
-        <Header />
+        {/* <Header /> */}
 
-        <Link href="https://wa.me/8801303233683" target="_blank" >
-        <Image src={Message} alt="Message Whats App" className=" fixed bottom-5 right-0  rounded-full w-16 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50" />
+        <Link href="mailto:shahjalalk.web@gmail.com" target="_blank" >
+        <Image src={Message} alt="Email" className=" fixed bottom-5 right-1  rounded-full w-16 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50 bg-[#fff]" />
         </Link>
 
         {children}
