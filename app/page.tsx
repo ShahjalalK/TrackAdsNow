@@ -38,10 +38,10 @@ export default function Home() {
           </ul>
 
          <div className="flex flex-col space-y-5">
-         <p>Check out my Fiverr gig <Link href="https://cutt.ly/geYfokdK" target="_blank" className="text-red-500 underline">https://www.fiverr.com/s/xXqyBXB</Link> to see samples of my work and reviews from satisfied clients.</p>
+         <p>Check out my Fiverr gig <Link href="https://cutt.ly/qe1slUTX" target="_blank" className="text-red-500 underline">https://www.fiverr.com/s/xXqyBXB</Link> to see samples of my work and reviews from satisfied clients.</p>
 
 
-         <Link href="https://cutt.ly/geYfokdK" target="_blank" className=" bg-white flex   items-center space-x-2 p-4 rounded-xl max-w-[600px] border shadow ">
+         <Link href="https://cutt.ly/qe1slUTX" target="_blank" className=" bg-white flex   items-center space-x-2 p-4 rounded-xl max-w-[600px] border shadow ">
          <Image src={FiverrGig} alt="Fiverr Gig"  placeholder="blur" className=" w-[150px] col-span-1 rounded"/>
             <div className=" col-span-3">
               <h5 className=" font-bold text-sm xl:text-lg">Shahjalalk: I will create html email signature and email footer for...</h5>
