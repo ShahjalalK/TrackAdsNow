@@ -15,7 +15,7 @@ export default function Footer({}: Props) {
     <footer className="bg-black section-padding pb-10">
       <div className=" container flex items-center justify-center flex-col space-y-10">   
 
-<p className="text-gray-200 text-lg">Copyright  2024 <Link href="https://www.fiverr.com/shahjalalk" target="_blank" className="text-primary">Shahjalal</Link>. All Rights Reserved.</p>
+<p className="text-gray-200 text-lg">Copyright  2025 <Link href="https://www.fiverr.com/shahjalalk" target="_blank" className="text-primary">Shahjalal</Link>. All Rights Reserved.</p>
 
      </div>
       

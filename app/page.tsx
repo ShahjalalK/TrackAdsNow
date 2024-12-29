@@ -24,7 +24,7 @@ export default function Home() {
       <div className=" container flex flex-col space-y-7">
         <h1 className=" text-xl lg:text-4xl font-bold">Let Me Create a Stunning Clickable HTML Email Signature for You!</h1>
         <div className="flex flex-col space-y-7 text-xl">
-          <h3>Dear Professional,</h3>
+          <h3>Hi there,</h3>
           <p>I’m a professional clickable email signature developer, ready to design an attractive and fully functional HTML email signature for you. A well-designed email signature not only enhances your professional image but also helps your emails stand out.</p>
           <p>I’ve had the pleasure of creating personalized email signatures for clients like <Link href="https://www.legacylaunchpadpub.com/" target="_blank" className="text-red-500" >Anna David</Link> and her team, among others. Each signature I design is tailored to reflect your unique brand and personality while ensuring compatibility with all major email clients.</p>
 
