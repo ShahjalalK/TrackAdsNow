@@ -50,7 +50,7 @@ export default function RootLayout({
         {/* <Header /> */}
 
         <Link href="mailto:shahjalalk.web@gmail.com" target="_blank" >
-        <Image src={Message} alt="Email" className=" fixed bottom-5 right-1  rounded-full w-16 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50 bg-[#fff]" />
+        <Image src={Message} alt="Email" className=" fixed bottom-[40%] xl:bottom-40 right-1  rounded-full w-16 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50 bg-[#fff]" />
         </Link>
 
         {children}
