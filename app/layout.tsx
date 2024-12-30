@@ -8,6 +8,8 @@ import Footer from "./components/footer";
 import Message from "@/public/Email.png"
 import Image from "next/image";
 
+import CookieConsent, { Cookies } from "react-cookie-consent";
+
 
 export const metadata: Metadata = {
   title: "Professional Clickable HTML Email Signature Design Services",
@@ -42,6 +44,7 @@ export default function RootLayout({
       </head>
 
       <GoogleTagManager gtmId="GTM-KZTG5HKH" />
+      
 
       <body className="font-Roboto">
         {/* <Header /> */}
