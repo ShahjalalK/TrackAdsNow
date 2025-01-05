@@ -1,9 +1,9 @@
 "use client"
-import React, { createContext, useReducer, useState } from 'react'
+import React, {  useState } from 'react'
 import SectionTitle from '../sectionTitle'
-import { json } from 'stream/consumers'
-import { SpinnerCircularFixed, SpinnerDotted } from 'spinners-react'
+
 import MessageAlert from './messageAlert'
+import { Oval } from 'react-loader-spinner'
 
 
 
@@ -89,7 +89,13 @@ Fill out the form below, and we'll get back to you in no time. Your message matt
                   <input value={subject} onChange={(e) => setSubject(e.target.value)} type="text" name="" id="" className="border p-3 rounded-md w-full bg-white outline-none placeholder:text-titleColor/80 text-lg" placeholder='Enter Your Subject' />
                   <textarea value={message} required onChange={(e) => setMessage(e.target.value)} name="" id="" rows={5}  className="border p-3 rounded-md w-full bg-white outline-none placeholder:text-titleColor/80 text-lg" placeholder='Write Your Message'></textarea>
                   
-                  <button type="submit" className="w-full bg-secoundary rounded-md p-4 text-white flex justify-center items-center">{loading ? <SpinnerCircularFixed color='#fff' size={25} /> : "Send Your Message 🚀"}   </button>
+                  <button type="submit" className={`w-full bg-secoundary rounded-md ${loading ? 'p-2' : 'p-4'} text-white flex justify-center items-center`}>{loading ? <Oval
+  visible={true}
+  height="40"
+  width="40"
+  color="#fff"
+  
+  /> : "Send Your Message 🚀"}   </button>
                 </form>
                 {response && <MessageAlert messageAlert={response}/>}
                 {responseEroor && <p>Message is not sent, Please Try again</p>}

@@ -1,7 +1,8 @@
 "use client"
 import React, { useState } from 'react'
 import { CiMail } from "react-icons/ci";
-import { SpinnerCircularFixed } from 'spinners-react';
+import { Oval } from 'react-loader-spinner';
+
 
 type Props = {}
 
@@ -39,7 +40,13 @@ const FooterForm = (props: Props) => {
                 <CiMail className="text-gray-400 text-2xl " />
     
                 </div>
-                <button type="submit" className="bg-secoundary px-5 py-3 rounded-md uppercase">{loading ? <SpinnerCircularFixed color='#fff' size={25} /> : "Subscribe"}</button>
+                <button type="submit" className={`bg-secoundary px-5 ${loading ? 'py-1': 'py-3' } rounded-md uppercase`}>{loading ? <Oval
+                  visible={true}
+                  height="40"
+                  width="40"
+                  color="#fff"
+                  
+                  />  : "Subscribe"}</button>
               </form>
               
 
