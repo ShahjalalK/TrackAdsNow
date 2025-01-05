@@ -4,6 +4,7 @@ import React from 'react'
 import myPhoto from "@/public/me.png"
 import Image from 'next/image'
 import Link from 'next/link'
+import SectionTitle from '../sectionTitle'
 
 
 
@@ -13,10 +14,13 @@ type Props = {}
 
 const About = (props: Props) => {
   return (
-    <section className="section-padding bg-bgColor">
+    <section className="section-padding ">
     <div className=" container xl:grid xl:grid-cols-4">
       <div className="xl:col-span-3 flex flex-col space-y-10 ">
-      <h1 className="text-4xl uppercase text-center">About Me</h1>
+      <div>
+        <SectionTitle subTitle="Have Any Questions?" sectionTitle="CONTACT WITH US!" description="Have questions, ideas, or just want to say hello? We'd love to hear from you! 💬
+Fill out the form below, and we'll get back to you in no time. Your message matters to us, and we’re here to help! 🚀" />
+        </div>
     <div className=" border border-gray-400 shadow-md  flex justify-center items-center flex-col space-y-4 p-10 text-center">
      <Image src={myPhoto} alt='Shahjalal Khan' placeholder="blur" className="w-20 rounded-full" />
      <h1 className="text-3xl font-bold text-secoundary font-Barlow tracking-wider uppercase">Shahjalal Khan</h1>

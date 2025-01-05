@@ -1,11 +1,12 @@
 "use client"
 
 import Link from 'next/link';
-import React, { useState } from 'react'
-import { AiOutlineMail } from "react-icons/ai";
+import React from 'react'
 import { FaLinkedinIn, FaFacebookF  } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import FooterForm from './footerComponents/footerForm';
+
+
 
 
 
@@ -40,13 +41,14 @@ export default function Footer({}: Props) {
         </ul>
 
         <FooterForm />
+        
 
       </div>
       <div className="container flex flex-col xl:flex-row space-y-2  xl:justify-between items-center pt-20">
         <p>Address Kushtia,Dhaka,Bangladesh</p>
         <div>Get your company a professional email signature <Link href="https://cutt.ly/qe1slUTX" target='_blank' className="text-sm bg-secoundary px-5 py-1 rounded-xl">Start now</Link></div>
       </div>
-      <div className=" py-10 xl:py-20 ">
+      <div className=" py-10 xl:py-20  ">
         <div className="h-2 border-b-2 border-gray-500"></div>
     
       </div>

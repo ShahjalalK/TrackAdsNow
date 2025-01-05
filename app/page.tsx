@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import FiverrGig from "@/public/images/gig1.jpg"
 import CookieConsentComponent from "./components/CookieConsentComponent";
 import Portfolio from "./components/ServicesComponents/portfolio";
 import ContactForm from "./components/contact/contactForm";
@@ -9,6 +8,8 @@ import ContactForm from "./components/contact/contactForm";
 import { Rivews } from "@/types/rivew";
 import { getRivews } from "@/sanity/sanity.untils";
 import ServiceDetails from "./components/ServicesComponents/serviceDetails";
+import About from "./components/contact/about";
+
 
 
 type Props = {
@@ -37,8 +38,7 @@ export default async function Home({} : Props) {
 
     <Portfolio buyerRivew={buyerRivew} />
    
-
-   
+   {/* <About /> */}
 
     <ContactForm />
 

@@ -1,7 +1,10 @@
 "use client"
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react'
 import { CiMail } from "react-icons/ci";
 import { Oval } from 'react-loader-spinner';
+import FiverrLogo from "@/public/fiverr-logo.png"
 
 
 type Props = {}
@@ -53,7 +56,11 @@ const FooterForm = (props: Props) => {
             {subscribed && <p className="text-white">
               <b>Thank You for Subscribing! 🎉</b> <br />
 You're now part of an amazing community! 📨
-Get ready to receive exclusive updates, valuable insights, and special offers straight to your inbox. We're excited to have you on board! 🌟</p>}              
+Get ready to receive exclusive updates, valuable insights, and special offers straight to your inbox. We're excited to have you on board! 🌟</p>} 
+
+<div className=" pt-10 xl:pt-20 flex xl:items-center justify-center w-full">
+          <Link href="https://cutt.ly/qe1slUTX" target="_blank"> <Image src={FiverrLogo} alt="Fiverr Logo" className=" grayscale hover:grayscale-0 w-32" /> </Link>
+        </div>
             
         </div>
   )

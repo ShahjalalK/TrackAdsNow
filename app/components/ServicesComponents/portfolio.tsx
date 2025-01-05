@@ -4,6 +4,8 @@
 import React, { useState } from 'react'
 
 
+
+
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -25,13 +27,13 @@ const Portfolio = ({buyerRivew}: Props) => {
     const [visable, setVisibale] = useState(3)
     
     const RivewMoreHandler = () => {
-        setVisibale((prev) => prev + 3)
+        setVisibale((prev) => prev + 4)
         
     }
 
    
   return (
-    <section className="py-20" id='portfolio'>
+    <section className="section-padding" id='portfolio'>
         <div className="container flex flex-col space-y-20">
         
         <div className="grid xl:grid-cols-3">
@@ -46,7 +48,8 @@ const Portfolio = ({buyerRivew}: Props) => {
 
            
             <div className="flex items-center justify-center">
-               <button onClick={RivewMoreHandler} className={` hover:bg-secoundary  border-2 border-secoundary text-secoundary hover:text-white px-6 py-3 rounded-md text-lg font-medium`}>Browse more templates</button>
+              {visable < reviewAll.length &&  <button onClick={RivewMoreHandler} className={` hover:bg-secoundary  border-2 border-secoundary text-secoundary hover:text-white px-6 py-3 rounded-md text-lg font-medium`}>Show More Reviews</button>}
+              
               
             </div>
            </div>
