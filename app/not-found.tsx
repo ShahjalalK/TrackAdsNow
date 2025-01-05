@@ -15,7 +15,7 @@ const PageNotFound = (props: Props) => {
         <h1 className="text-titleColor text-4xl font-bold">Page Not Found</h1>
         <p className="text-base">Were sorry The page you are looking for on longer exists.</p>
        <div className="flex items-center justify-center py-5">
-       <Link href="/" className="bg-primary hover:bg-blue-950 transition-colors duration-300 px-10 py-5  text-white flex items-center gap-x-1 rounded-md uppercase text-sm"> <HiOutlineHome className="text-lg"  /> Return To Home</Link>
+       <Link href="/" className="bg-secoundary transition-colors duration-300 px-10 py-5  text-white flex items-center gap-x-1 rounded-md uppercase text-sm"> <HiOutlineHome className="text-lg"  /> Return To Home</Link>
        </div>
       </div>
      

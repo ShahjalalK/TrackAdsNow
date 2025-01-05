@@ -1,6 +1,7 @@
+
+
 import type { Metadata } from "next";
 import { GoogleTagManager } from '@next/third-parties/google'
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Header from "./components/header";
@@ -8,7 +9,7 @@ import Footer from "./components/footer";
 import Message from "@/public/Email.png"
 import Image from "next/image";
 
-import CookieConsent, { Cookies } from "react-cookie-consent";
+
 
 
 export const metadata: Metadata = {
@@ -36,27 +37,36 @@ export default function RootLayout({
         
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <link
+        {/* <link
           href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
           rel="stylesheet"
-        ></link>
+        ></link> */}
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
 
       </head>
 
-      <GoogleTagManager gtmId="GTM-KZTG5HKH" />
+      
       
 
       <body className="font-Roboto">
-        {/* <Header /> */}
+        
+      <Header />
 
-        <Link href="mailto:shahjalalk.web@gmail.com" target="_blank" >
-        <Image src={Message} alt="Email" className=" fixed bottom-[40%] xl:bottom-40 right-1  rounded-full w-16 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50 bg-[#fff]" />
-        </Link>
+          <Link href="mailto:shahjalalk.web@gmail.com" target="_blank" >
+          <Image src={Message} alt="Email" className=" fixed bottom-20 right-1  rounded-full  w-14 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50 border-secoundary  bg-[#fff]" />
+          </Link>
 
-        {children}
+          {children}
+         
 
-        <Footer />
+          <Footer />
+        
       </body>
+
+      <GoogleTagManager gtmId="GTM-KZTG5HKH" />
+     
     </html>
   );
 }

@@ -17,15 +17,18 @@ export default {
     extend: {
       colors : {
         primary : "#684DF4",
-        titleColor : "#141D38"
+        secoundary : "#F5467E",
+        titleColor : "#141D38",
+        bgColor : "#F8F9FB"
       },
       boxShadow: {
         '3xl': '0px 8px 29px 0px #A3C6FF',
+        "shadowSk": "rgba(0, 0, 0, 0.24) 0px 3px 8px",
       }
     },
     fontFamily : {
       Barlow : ["Barlow", "serif"],
-      Roboto : ["Roboto", "serif"]
+      Mulish : ["Mulish", "serif"]
     },
     container : {
       center : true,
@@ -35,5 +38,7 @@ export default {
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 } satisfies Config;

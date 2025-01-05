@@ -1,27 +1,35 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import Logo from "@/public/logo.png"
 
 type Props = {}
 
 export default function Header({}: Props) {
   return (
-    <header className="bg-primary py-5 text-white border-b">
+    <header className="bg-white py-5 text-titleColor border-b">
         <div className=" container flex items-center justify-center xl:justify-between text-lg ">
             
+        <h1 className=" font-medium text-2xl"><Link href="/">
+        <Image src={Logo} alt='logo' placeholder='blur' className="  w-24" />
+        </Link> </h1>
+        <ul className="hidden xl:flex items-center space-x-5">
+                <li>
+                    <Link href="#" className="text-titleColor hover:text-secoundary capitalize">Home</Link>
+                </li>
+                
+                <li>
+                    <Link href="#portfolio" className="text-titleColor hover:text-secoundary capitalize">Portfolio & Reviews</Link>
+                </li>
+                <li>
+                    <Link href="#contact" className="text-titleColor hover:text-secoundary capitalize">Contact</Link>
+                </li>
 
-            <div className="flex items-center gap-3 font-Barlow">
-            <p className=" font-medium text-xl">Follow Us On :</p>
-            <ul className="flex items-center gap-3">
-                <li>
-                    <Link href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=shahjalal-khan" target='_blank' ><FaLinkedinIn className="text-2xl hover:text-blue-950" /></Link>
-                </li>
-                <li>
-                    <Link href="https://github.com/ShahjalalK" target='_blank'><FaGithub className="text-2xl hover:text-blue-950" /></Link>
-                </li>
+                {/* <li>
+                    <Link href="/studio" className="text-titleColor hover:text-secoundary capitalize">Studio</Link>
+                </li> */}
+                
             </ul>
-        </div>
         </div>
         
     </header>
