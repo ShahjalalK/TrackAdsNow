@@ -18,8 +18,12 @@ export default {
       colors : {
         primary : "#684DF4",
         secoundary : "#F5467E",
+        dipSecoundary : "#da245e",
         titleColor : "#141D38",
-        bgColor : "#F8F9FB"
+        dipTigleColor : "#070a16",
+        bgColor : "#F8F9FB",
+        darkBgColor : "#08415C"
+        
       },
       boxShadow: {
         '3xl': '0px 8px 29px 0px #A3C6FF',
@@ -28,7 +32,8 @@ export default {
     },
     fontFamily : {
       Barlow : ["Barlow", "serif"],
-      Mulish : ["Mulish", "serif"]
+      Mulish : ["Mulish", "serif"],
+      Alex : ["Alex Brush", "serif"]
     },
     container : {
       center : true,

@@ -6,7 +6,6 @@ import "./globals.css";
 import Link from "next/link";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Message from "@/public/Email.png"
 import Image from "next/image";
 
 
@@ -33,7 +32,7 @@ export default function RootLayout({
       <head>
 
       {/* <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" /> */}
-      <link rel="shortcut icon" href="https://raw.githubusercontent.com/ShahjalalK/TrackAdsNow/refs/heads/master/public/favicon.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/ShahjalalK/picture/refs/heads/main/favicon2.png" type="image/x-icon" />
         
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
@@ -44,7 +43,7 @@ export default function RootLayout({
 
 
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
-
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet" />
       </head>
 
       
@@ -54,12 +53,11 @@ export default function RootLayout({
         
       <Header />
 
-          <Link href="mailto:shahjalalk.web@gmail.com" target="_blank" >
-          <Image src={Message} alt="Email" className=" fixed bottom-20 right-1  rounded-full  w-14 animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-10000 z-50 border-secoundary  bg-[#fff]" />
-          </Link>
+       
 
           {children}
          
+
 
           <Footer />
         

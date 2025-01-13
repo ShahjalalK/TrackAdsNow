@@ -14,6 +14,7 @@ import PortfolioSectionCard from './portfolioSectionCard'
 import { Rivews } from "@/types/rivew";
 
 
+
 type Props = {
     buyerRivew : Rivews[]
 }
@@ -27,7 +28,7 @@ const Portfolio = ({buyerRivew}: Props) => {
     const [visable, setVisibale] = useState(3)
     
     const RivewMoreHandler = () => {
-        setVisibale((prev) => prev + 4)
+        setVisibale((prev) => prev + 6)
         
     }
 
@@ -39,9 +40,14 @@ const Portfolio = ({buyerRivew}: Props) => {
         <div className="grid xl:grid-cols-3">
 
            <div className=" col-span-2 flex flex-col space-y-14 xl:space-y-20">
-           <SectionTitle subTitle="See My Work and Hear From My Clients" sectionTitle="Portfolio & Reviews" description="Discover the high-quality, clickable HTML email signatures I’ve created for clients worldwide. Each design is a blend of creativity and professionalism, tailored to meet unique branding needs. Alongside the work samples, read what my clients have to say about their experience working with me." />
+            <div className="flex flex-col space-y-3">
+            <SectionTitle subTitle="See My Work and Hear From My Clients" sectionTitle="Portfolio & Reviews" description="Discover the high-quality, clickable HTML email signatures I’ve created for clients worldwide. Each design is a blend of creativity and professionalism, tailored to meet unique branding needs. Alongside the work samples, read what my clients have to say about their experience working with me." />
+            </div>
+
            
-           {reviewAll.slice(0, visable).map((item) => (
+           
+           
+            {reviewAll.slice(0, visable).map((item) => (
                 <PortfolioSectionCard review={item} key={item._id} />
            ))}
            

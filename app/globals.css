@@ -6,23 +6,33 @@
 @layer base{
   
  html{
-  @apply scroll-smooth
+  @apply scroll-smooth transition-all duration-300
  }
   body {
-    @apply font-Mulish
+    @apply font-Mulish shadow-shadowSk mx-5 xl:mx-10 rounded-md overflow-x-hidden 
   }
   .section-padding{
-    @apply py-20
+    @apply py-10  lg:py-20
   }
 }
 
-
+.CookieConsent div, .CookieConsent div button{
+ @apply !my-1 xl:!mx-4
+}
 .titleGradient{
  color: 
   linear-gradient(180deg, #5484FF 0%, #642CDC 100%);
 }
 
+
 .shadowTestmonials{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.herobg{
+  background-image: url("../public/shape/shape.svg"); background-repeat: no-repeat; background-position: top right; background-position: top;
+}
+.footerObj{
+  background-image: url('../public/shape/shape3.svg'); background-position: top; background-repeat: no-repeat;
 }
 

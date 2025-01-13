@@ -9,13 +9,13 @@ const CookieConsentComponent = (props: Props) => {
   return (
     <CookieConsent
   location="bottom"
-  buttonText="Accept All"
+  buttonText="Got it!"
   cookieName="myAwesomeCookieName2"
-  style={{ background: "#2B373B", padding : "10px" }}
-  buttonStyle={{ color: "#F5467E", fontSize: "13px", borderRadius: "10px", backgroundColor: "#fff" }}
+  style={{ background: "rgb(149, 165, 166)", }} 
+  buttonStyle={{ color: "#000", fontSize: "17px", borderRadius: "5px", padding : "2px 20px", backgroundColor: "rgb(241, 214, 0)" }}
   expires={150}
 >
-We use cookies to improve your browsing experience, analyze website performance, and provide personalized content. By clicking "Accept All," you agree to our use of cookies. You can manage your preferences anytime in the settings.
+<p className="text-base xl:ml-7">We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
   
 </CookieConsent>
   )
