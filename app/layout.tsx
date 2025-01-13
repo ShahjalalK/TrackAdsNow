@@ -7,6 +7,7 @@ import Link from "next/link";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Image from "next/image";
+import MetaImage from "@/public/metaImage.jpg"
 
 
 
@@ -15,6 +16,21 @@ export const metadata: Metadata = {
   title: "Professional Clickable HTML Email Signature Design Services",
   description: "Get a sleek, responsive, and clickable HTML email signature that enhances your brand identity. Perfect for businesses and professionals. Order now for top-quality designs!",
  
+  openGraph : {
+    title : "Professional Clickable HTML Email Signature Design Services",
+    description : "Get a sleek, responsive, and clickable HTML email signature that enhances your brand identity. Perfect for businesses and professionals. Order now for top-quality designs!",
+    url : "https://trackadsnow.vercel.app",
+    siteName : "Click Sign Studio",
+    images : [
+      {
+        url : "https://raw.githubusercontent.com/ShahjalalK/picture/refs/heads/main/metaImage.jpg",
+        width : 1260,
+        height : 800
+      } 
+    ],
+    locale : "en-EN"
+
+  }
  
 };
 

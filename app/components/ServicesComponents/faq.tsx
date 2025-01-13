@@ -58,7 +58,7 @@ const Faq = (props: Props) => {
                 <div className="grid  gap-10 xl:w-[70%]">
                     {faq.map((item, i) => (
 
-                        <div className=" rounded flex flex-col">
+                        <div className=" rounded flex flex-col" key={i}>
                         <div onClick={() => faqHandler(i)} className={`text-lg font-bold cursor-pointer bg-gray-100 flex justify-between items-start xl:items-center border p-3 rounded-t ${opentFaq !== i ? "rounded-b" : "" }`}>
                         <span> {item.question}</span>
 

@@ -26,6 +26,7 @@ const Pricing = (props: Props) => {
       </div>
        
        <table className="w-[90%] mx-auto ">
+        <tbody>
         <tr className="border">
           <td className="w-48 px-5  text-gray-800">Package</td>
            <td className="p-5 border">
@@ -141,7 +142,7 @@ const Pricing = (props: Props) => {
           <div className="flex flex-col space-y-5 text-gray-600 justify-center items-center p-5">
           <span className="font-bold">$10</span>
           <div>
-          <Link href="/" className="bg-titleColor text-white px-10 py-2 rounded font-bold hover:bg-titleColor/50">Select</Link>
+          <Link href="https://cutt.ly/qe1slUTX" target="_blank" className="bg-titleColor text-white px-10 py-2 rounded font-bold hover:bg-titleColor/50">Select</Link>
           </div>
           </div>
           </td>
@@ -149,7 +150,7 @@ const Pricing = (props: Props) => {
           <div className="flex flex-col space-y-5 text-gray-600 justify-center items-center p-5">
           <span className="font-bold">$20</span>
           <div>
-          <Link href="/" className="bg-titleColor text-white px-10 py-2 rounded font-bold hover:bg-titleColor/50">Select</Link>
+          <Link href="https://cutt.ly/qe1slUTX" target="_blank" className="bg-titleColor text-white px-10 py-2 rounded font-bold hover:bg-titleColor/50">Select</Link>
           </div>
           </div>
           </td>
@@ -157,11 +158,12 @@ const Pricing = (props: Props) => {
           <div className="flex flex-col space-y-5 text-gray-600 justify-center items-center p-5">
           <span className="font-bold">$40</span>
           <div>
-          <Link href="/" className="bg-titleColor text-white px-10 py-2 rounded font-bold hover:bg-titleColor/50">Select</Link>
+          <Link href="https://cutt.ly/qe1slUTX" target="_blank" className="bg-titleColor text-white px-10 py-2 rounded font-bold hover:bg-titleColor/50">Select</Link>
           </div>
           </div>
           </td>
         </tr>
+        </tbody>
 
        </table>
 
