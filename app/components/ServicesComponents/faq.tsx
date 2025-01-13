@@ -59,7 +59,7 @@ const Faq = (props: Props) => {
                     {faq.map((item, i) => (
 
                         <div className=" rounded flex flex-col" key={i}>
-                        <div onClick={() => faqHandler(i)} className={`text-lg font-bold cursor-pointer bg-gray-100 flex justify-between items-start xl:items-center border p-3 rounded-t ${opentFaq !== i ? "rounded-b" : "" }`}>
+                        <div onClick={() => faqHandler(i)} className={`text-base lg:text-lg font-bold cursor-pointer bg-gray-100 flex justify-between items-start xl:items-center border p-3 rounded-t ${opentFaq !== i ? "rounded-b" : "" }`}>
                         <span> {item.question}</span>
 
                         {opentFaq === i ? <div className="w-7 h-7 bg-gray-200 rounded-full flex justify-center items-center"><FaChevronUp /></div>  : <div className="w-7 h-7 bg-gray-200 rounded-full flex justify-center items-center"><FaChevronDown /></div>}  

@@ -12,7 +12,7 @@ import About from "./components/contact/about";
 import Herro from "./components/ServicesComponents/herro";
 import Video from "./components/ServicesComponents/video";
 import Services from "./components/ServicesComponents/Services";
-import Pricing from "./components/ServicesComponents/pricing";
+import Pricing from "./components/pricingComponents/pricing";
 import Faq from "./components/ServicesComponents/faq";
 
 

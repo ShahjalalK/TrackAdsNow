@@ -9,12 +9,12 @@ type Props = {}
 const Services = (props: Props) => {
   return (
     <section className="section-padding">
-        <div className="container flex flex-col space-y-20">
-            <div className="flex flex-col space-y-4 text-center">
-                <h1 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-titleColor">Transform Your Emails with Professional Clickable Email Signatures</h1>
-                <p className="text-lg font-bold">From sleek designs to flawless functionality, I offer everything you need to elevate your email communication.</p>
+        <div className="container flex flex-col space-y-10 xl:space-y-20">
+            <div className="flex flex-col space-y-4 xl:text-center">
+                <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-titleColor">Transform Your Emails with Professional Clickable Email Signatures</h1>
+                <p className=" lg:text-lg font-bold">From sleek designs to flawless functionality, I offer everything you need to elevate your email communication.</p>
             </div>
-            <div className="grid xl:grid-cols-2 space-y-5 xl:space-y-0 xl:space-x-20">
+            <div className="grid xl:grid-cols-2 space-y-10 xl:space-y-0 xl:space-x-20">
                
             <div>
                     <Image src={ResponsiveEmail} alt='Responsive Email' className="w-full" placeholder="blur" />

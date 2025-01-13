@@ -15,7 +15,7 @@ type Props = {}
 
 const About = (props: Props) => {
   return (
-    <section className="section-padding ">
+    <section className="section-padding " id='about'>
     <div className=" container grid xl:grid-cols-3 gap-y-10 xl:gap-y-0 xl:gap-x-20 ">
       <div className="xl:col-span-1 flex flex-col space-y-5 text-center">
       <Image src={myPhoto} alt='Shahjalal Khan' placeholder="blur" className="w-full rounded" />

@@ -51,7 +51,7 @@ export default function Footer({}: Props) {
       </div>
       <div className=" container flex items-center justify-center flex-col space-y-10">   
 
-<p className="text-gray-200 text-base">© 2025 <Link href="https://cutt.ly/jeBpQOaU" target="_blank" className="text-secoundary font-bold">ClickSign Studio</Link> All Rights Reserved.</p>
+<p className="text-gray-200 text-base text-center">© 2025 <Link href="https://cutt.ly/jeBpQOaU" target="_blank" className="text-secoundary font-bold">ClickSign Studio</Link> All Rights Reserved.</p>
 
      </div>
       
