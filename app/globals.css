@@ -6,10 +6,10 @@
 @layer base{
   
  html{
-  @apply scroll-smooth transition-all duration-300
+  @apply scroll-smooth transition-all duration-300 
  }
   body {
-    @apply font-Mulish shadow-shadowSk mx-5 xl:mx-10 rounded-md overflow-x-hidden 
+    @apply font-Mulish shadow-shadowSk mx-5 xl:mx-10 rounded-md overflow-x-hidden  bg-white
   }
   .section-padding{
     @apply py-10  lg:py-20

@@ -54,7 +54,7 @@ const Pricing = (props: Props) => {
  
   return (
     <section className="section-padding bg-bgColor" id='pricing'>
-       <div className="container flex flex-col space-y-20">
+       <div className="container flex flex-col space-y-10 lg:space-y-20">
 
     
         <div className="flex flex-col space-y-2 justify-center items-center">

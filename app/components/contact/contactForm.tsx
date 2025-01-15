@@ -76,7 +76,7 @@ const handleSubmit = async (e : any) => {
       <div className="grid xl:grid-cols-3 container">
         <div className="xl:col-span-2">
         <div className="flex flex-col space-y-10">
-        <div>
+        <div className="flex flex-col space-y-3">
         <SectionTitle subTitle="Have Any Questions?" sectionTitle="CONTACT WITH US!" description="Have questions, ideas, or just want to say hello? We'd love to hear from you! 💬
 Fill out the form below, and we'll get back to you in no time. Your message matters to us, and we’re here to help! 🚀" />
         </div>

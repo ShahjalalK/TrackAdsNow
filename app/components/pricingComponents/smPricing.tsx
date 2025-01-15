@@ -43,7 +43,7 @@ const SmPricing = ({Packages}: Props) => {
       <div className="grid grid-cols-3 border rounded-t" >
 
       {allPackage.map((item, i) => (
-      <div onClick={() => packageHandler(i)} className={`p-3 ${showPackage === i && ' bg-secoundary/70 text-white'} flex  items-center justify-center border-r cursor-pointer  font-medium`} key={i}>{item.PackageName}</div>
+      <div onClick={() => packageHandler(i)} className={`p-3 ${showPackage === i && ' bg-secoundary/90 text-white'} flex  items-center justify-center border-r cursor-pointer  font-medium`} key={i}>{item.PackageName}</div>
     ))}
       
       </div>
@@ -63,7 +63,7 @@ const SmPricing = ({Packages}: Props) => {
 
   <div className="flex items-center space-x-1 text-sm">
  <span>1</span>
-  <span>Source File</span>
+  <span>Design Concepts</span>
 </div>
 
 <div className="flex items-center space-x-1 text-sm">

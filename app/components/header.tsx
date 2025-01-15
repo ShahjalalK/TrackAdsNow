@@ -94,7 +94,7 @@ export default function Header({}: Props) {
     </div>
 
 
-    <div className={`fixed bg-bgColor top-28 lg:top-[40%] right-0 lg:right-6 xl:right-0 w-12 h-12 flex xl:hidden justify-center items-center rounded-full border-2 border-secoundary/50 hover:border-secoundary hover:text-secoundary p-1 text-secoundary/60 shadow cursor-pointer z-50 transition-all duration-300 ${showHeader ? 'translate-x-[300px]' : 'translate-x-0'} `} onClick={() => menuHandler()}>
+    <div className={`fixed bg-bgColor bottom-28 lg:top-[40%] right-0 lg:right-6 xl:right-0 w-12 h-12 flex xl:hidden justify-center items-center rounded-full border-2 border-secoundary/50 hover:border-secoundary hover:text-secoundary p-1 text-secoundary/60 shadow cursor-pointer z-50 transition-all duration-300 ${showHeader ? 'translate-x-[300px]' : 'translate-x-0'} `} onClick={() => menuHandler()}>
        <IoMenu className="text-5xl" />
 
     </div>

@@ -14,7 +14,7 @@ const Video = (props: Props) => {
         <p className="text-lg">Follow the step-by-step video guide to quickly add your professional email signature to Gmail, Outlook, or any other email client. Download a sample below to test it yourself!</p>
         </div>
       <div className=" relative p-[30%] lg:p-[16%] xl:p-[25%]  flex justify-center items-center rounded overflow-x-hidden w-[100%] xl:w-[70%] ">
-        <iframe src="https://player.vimeo.com/video/1046114726?autoplay=0&muted=1&loop=1&title=0&byline=0&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="1" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className=" absolute top-5 left-0 w-[100%] xl:h-[90%] rounded p-0 scale-125 lg:scale-150  xl:scale-100"></iframe>
+        <iframe src="https://www.youtube.com/embed/oVfQNB51P30?autoplay=0&muted=1&loop=1&title=0&byline=0&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="1" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className=" absolute top-5 left-0 w-[100%] xl:h-[90%] rounded p-0"></iframe>
         </div>
 
         <div>
@@ -22,7 +22,18 @@ const Video = (props: Props) => {
         </div>
       </div>
 
+
+      {/* <video src="https://www.dropbox.com/scl/fi/le04r5gve6j1a7vsqj8jp/Untitled-design-2.mp4?rlkey=z177vbkshx4fjk5nxzvj3pk07&st=v2jxr9q4&row=0" typeof="video/mp4"></video> */}
         
+
+      {/* <video width="640" height="360" controls>
+                <source src="https://www.dropbox.com/scl/fi/le04r5gve6j1a7vsqj8jp/Untitled-design-2.mp4?rlkey=z177vbkshx4fjk5nxzvj3pk07&st=v2jxr9q4?raw=1" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video> */}
+
+      
+
+      
 
      
 

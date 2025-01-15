@@ -22,7 +22,7 @@ const PortfolioSectionCard = ({review}: Props) => {
                        <Image src={review.buyerImage} alt={review.name} className=" w-16 xl:w-20 rounded-full object-cover border h-16 xl:h-20 " width={300} height={300}  />
                            <div className="flex flex-col">
                            <h1 className="text-2xl font-bold">{review.name}</h1>
-                           <div className="flex items-center space-x-1 text-md text-yellow-500">
+                           <div className="flex items-center space-x-1 text-md text-secoundary">
                                <FaStar />
                                <FaStar />
                                <FaStar />

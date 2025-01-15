@@ -6,7 +6,7 @@ import next from "next"
 
 
 
-const rivewQuery =  groq`*[_type == "emailsignaturereview"]{
+const rivewQuery =  groq`*[_type == "emailsignaturereview"] | order(priority desc, _updatedAt desc){
     _id,
         _createdAt,
         name,
