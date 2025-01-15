@@ -134,7 +134,7 @@ const Pricing = (props: Props) => {
   <td className="px-5 py-2  text-gray-800">Delivery Time</td>
   {Packages.map((item, i) => (
      <td className="border" key={i}>
-     <div className="flex justify-center items-center text-gray-600">2 day</div>
+     <div className="flex justify-center items-center text-gray-600">{item.delivarytime} day</div>
      </td>
   ))}
  

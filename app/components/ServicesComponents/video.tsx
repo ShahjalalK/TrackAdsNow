@@ -14,7 +14,7 @@ const Video = (props: Props) => {
         <p className="text-lg">Follow the step-by-step video guide to quickly add your professional email signature to Gmail, Outlook, or any other email client. Download a sample below to test it yourself!</p>
         </div>
       <div className=" relative p-[30%] lg:p-[16%] xl:p-[25%]  flex justify-center items-center rounded overflow-x-hidden w-[100%] xl:w-[70%] ">
-        <iframe src="https://www.youtube.com/embed/oVfQNB51P30?autoplay=0&muted=1&loop=1&title=0&byline=0&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="1" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className=" absolute top-5 left-0 w-[100%] xl:h-[90%] rounded p-0"></iframe>
+        <iframe src="https://www.youtube.com/embed/oVfQNB51P30?autoplay=0&muted=1&loop=1&title=0&byline=0&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="1" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen className=" absolute top-5 left-0 w-[100%] h-full rounded p-0"></iframe>
         </div>
 
         <div>
